@@ -1,5 +1,5 @@
 <?php
-require_once 'app/Controllers/UserController.php';
+require_once 'app/Controllers/PageLoginController.php';
 
-$controller = new UserController();
+$controller = new PageLoginController();
 $controller->index();
